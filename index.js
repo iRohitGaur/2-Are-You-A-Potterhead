@@ -40,6 +40,7 @@ var points20 = []
 var points30 = []
 var points40 = []
 var points50 = []
+var points60=[]
 
 console.log(cyan("Welcome to the game:"), yellow("Are You A Real Potterhead?"))
 
@@ -62,6 +63,7 @@ function begin() {
       points30 = quiz.filter( q => q.points == 30 )
       points40 = quiz.filter( q => q.points == 40 )
       points50 = quiz.filter( q => q.points == 50 )
+      points60=quiz.filter( q => q.points == 60 )
 
       // Game description
       log(cyan("\nGame Description:"))
